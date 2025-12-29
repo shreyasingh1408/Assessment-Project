@@ -63,11 +63,11 @@ function login() {
 
   // Redirect based on role
   if (user.role === "customer") {
-    window.location.href = "../customer-dashboard.html";
+    window.location.href = "customer-dashboard.html";
   } else if (user.role === "helper") {
-    window.location.href = "../helper-dashboard.html";
+    window.location.href = "helper-dashboard.html";
   } else {
-    window.location.href = "../admin-dashboard.html";
+    window.location.href = "admin-dashboard.html";
   }
 }
 
@@ -79,3 +79,4 @@ function logout() {
   alert("Logged out");
   window.location.href = "auth/login.html";
 }
+
