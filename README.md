@@ -1,6 +1,6 @@
 
-# Assignment-Project - Marsgenix
-Assignment Project for Different  User Services.
+# Assessment-Project - Marsgenix
+Assessment Project for Different  User Services.
 A simple role based service management web application with customer, helper, and admin dashboards. 
 Built using HTML, CSS (Tailwind), and JavaScript.
 
